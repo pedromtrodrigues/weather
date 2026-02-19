@@ -9,7 +9,7 @@ import { map } from 'rxjs';
 })
 export class WeatherService {
 
-  private baseUrl = `https://crudcrud.com/api/0fa2805d610847a2a98e3dfe44331519/weather`;
+  private baseUrl = `https://crudcrud.com/api/60a80fc0ec124da6afd7e5cf57fabe0a/weather`;
 
   constructor(private http: HttpClient) { }
 
