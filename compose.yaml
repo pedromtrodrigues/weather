@@ -1,0 +1,9 @@
+services:
+  altice-challenge:
+    container_name: weather-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: weather-app
+    ports:
+      - "8080:80" 

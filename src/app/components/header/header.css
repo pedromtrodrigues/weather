@@ -1,0 +1,43 @@
+header{
+    background-color: #333;
+    padding-block: 8px;
+    padding-inline: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color:white;
+
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        span {
+            cursor: pointer;
+            &:hover{
+                color:#777;
+            }
+        }
+
+        ul{
+            cursor: pointer;
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            font-size: 15px;
+
+            li {
+                
+                &:hover{
+                    color:#777;
+                }
+            }
+        }
+    }
+}
+
+.lang-link{
+    color:white;
+    text-decoration: none;
+}

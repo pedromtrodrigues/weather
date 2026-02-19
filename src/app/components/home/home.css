@@ -1,0 +1,11 @@
+
+.home{
+    background-color: #f4f7f9 ;
+    padding: 30px;
+}
+
+.home h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

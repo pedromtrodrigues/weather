@@ -1,0 +1,47 @@
+.weatherView{
+    background-color: #f4f7f9;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;   
+
+    h3{
+        font-size: 30px;
+    }
+}
+
+.itemHeader, .itemRow {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itemHeader p, .itemRow p, .col-btn {
+    flex: 1;
+    text-align: center;
+}
+
+.itemHeader{
+    background-color: lightblue;
+}
+
+.col-btn button {
+    width: 80px; 
+    padding: 6px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.btn-more {
+    background-color: #f0f0f0;
+    border-width: 1px;
+}
+
+.btn-delete {
+    background-color: #ff4d4d;
+    color: white;
+}
+

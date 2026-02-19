@@ -1,0 +1,34 @@
+<div class="weatherView">
+
+    @if (!weatherItems().length) {
+        <p i18n> Não há dados a mostrar </p>
+    } @else {
+        
+        <h3 i18n>Ver condições para: {{ weatherItems()[0]?.city }}</h3>
+
+        <div class="itemHeader">
+            <p i18n > Cidade </p>
+            <p i18n > Temperatura </p>
+            <p i18n > Altitude </p>
+            <p i18n > Vai chover? </p>
+            <p i18n > Network Power </p>
+            <p i18n > Data </p>
+            <p i18n > Apagar </p>
+        </div>
+        
+        @for (item of weatherItems(); track item._id) {
+            <div class="itemRow">
+                <p> {{ item.city }} </p>
+                <p> {{ item.temperature | convertUnits:'temp' }} </p>
+                <p> {{ item.altitude | convertUnits:'alt' }} </p>
+                <p> {{ item.isRaining ? 'Sim' : 'Não' }} </p>
+                <p> {{ item.networkPower }} </p>
+                <p> {{ item.date }} </p>
+                <div class="col-btn">
+                    <button i18n class="btn-delete" (click)="deleteWeather(item._id)">  Apagar </button>
+                </div>
+            </div>
+        }
+    }
+</div>
+

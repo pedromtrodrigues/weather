@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="pt-PT" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="215221541824550604" datatype="html">
+        <source> Cidades Disponiveis </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cities/cities.html</context>
+          <context context-type="linenumber">3,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5891352018768392518" datatype="html">
+        <source> Não ha dados para serem mostrados. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cities/cities.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6879096726425027605" datatype="html">
+        <source> Inserir Dados </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5902940934915173824" datatype="html">
+        <source> Ver Cidades </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4573207568823560721" datatype="html">
+        <source> Bem-vindo à aplicação! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/home/home.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6423105254043294641" datatype="html">
+        <source> Registo de novos dados. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather-form/weather-form.html</context>
+          <context context-type="linenumber">3,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8421352322930503720" datatype="html">
+        <source> Cidade: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather-form/weather-form.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2584174296997725782" datatype="html">
+        <source> A cidade é obrigatória. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather-form/weather-form.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1032505588422892446" datatype="html">
+        <source> Temperatura (°C): </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather-form/weather-form.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3471509499703257094" datatype="html">
+        <source>A temperatura é obrigatória. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather-form/weather-form.html</context>
+          <context context-type="linenumber">23,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4103506997604047253" datatype="html">
+        <source>Valor muito baixo (mínimo -80°C).</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather-form/weather-form.html</context>
+          <context context-type="linenumber">26,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9032030442545225289" datatype="html">
+        <source>Valor muito alto (máximo 60°C).</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather-form/weather-form.html</context>
+          <context context-type="linenumber">29,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7665785661520262693" datatype="html">
+        <source> Altitude (m): </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather-form/weather-form.html</context>
+          <context context-type="linenumber">36,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5409409089476282842" datatype="html">
+        <source>A altitude é obrigatória. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather-form/weather-form.html</context>
+          <context context-type="linenumber">41,42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7471018880580229010" datatype="html">
+        <source>A altitude mínima é de -430 metros.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather-form/weather-form.html</context>
+          <context context-type="linenumber">44,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3635596383859002598" datatype="html">
+        <source>A altitude máxima é de 8500 metros.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather-form/weather-form.html</context>
+          <context context-type="linenumber">47,48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3389270649004639199" datatype="html">
+        <source> Está a chover? </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather-form/weather-form.html</context>
+          <context context-type="linenumber">54,55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7241202112240077870" datatype="html">
+        <source> Selecionar para sim, não selecionar para não.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather-form/weather-form.html</context>
+          <context context-type="linenumber">56,57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4386169252284313058" datatype="html">
+        <source> Data: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather-form/weather-form.html</context>
+          <context context-type="linenumber">60,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="73964494145501063" datatype="html">
+        <source><x id="START_BLOCK_IF" equiv-text="@if (date?.hasError(&apos;required&apos;)) {"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/>A data é obrigatória.<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_BLOCK_IF" equiv-text="}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather-form/weather-form.html</context>
+          <context context-type="linenumber">64,67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6780038497200928200" datatype="html">
+        <source> Network power (1-5): <x id="INTERPOLATION" equiv-text="{{ weatherForm.get(&apos;networkPower&apos;)?.value }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather-form/weather-form.html</context>
+          <context context-type="linenumber">72,73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3496280837072175714" datatype="html">
+        <source> Submeter </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather-form/weather-form.html</context>
+          <context context-type="linenumber">76,77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4837007146442035678" datatype="html">
+        <source> Não há dados a mostrar </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather-view/weather-view.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2738076239443399987" datatype="html">
+        <source>Ver condições para: <x id="INTERPOLATION" equiv-text="{{ weatherItems()[0]?.city }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather-view/weather-view.html</context>
+          <context context-type="linenumber">7,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5520541299581708851" datatype="html">
+        <source> Cidade </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather-view/weather-view.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7818246935508479728" datatype="html">
+        <source> Temperatura </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather-view/weather-view.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4080164381701586833" datatype="html">
+        <source> Altitude </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather-view/weather-view.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5500429483492494058" datatype="html">
+        <source> Vai chover? </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather-view/weather-view.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8986874214330913687" datatype="html">
+        <source> Network Power </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather-view/weather-view.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="326819936092149573" datatype="html">
+        <source> Data </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather-view/weather-view.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6568111958080902285" datatype="html">
+        <source> Apagar </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather-view/weather-view.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather-view/weather-view.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,78 @@
+<div class="form-container">
+    <form [formGroup]="weatherForm" (ngSubmit)="onSubmit()">
+        <h2 i18n > Registo de novos dados. </h2>
+
+        <div class="form-group">
+            <label i18n  for="city"> Cidade: </label>
+            <input id="city" type="text" formControlName="city" placeholder="Ex: Aveiro"/>
+            <div class="error">
+                @if (city?.invalid && (city?.dirty || city?.touched )) {
+                    @if (city?.hasError('required')) {
+                        <div i18n > A cidade é obrigatória. </div>
+                    }
+                }
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label i18n  for="temperature"> Temperatura (°C): </label>
+            <input id="temperature" type="number" formControlName="temperature"/>
+            <div class="error">
+                @if (temperature?.invalid && (temperature?.dirty || temperature?.touched)) {
+                    @if (temperature?.hasError('required')) {
+                        <div i18n >A temperatura é obrigatória. </div>
+                    }
+                    @if (temperature?.hasError('min')) {
+                        <div i18n >Valor muito baixo (mínimo -80°C).</div>
+                    }
+                    @if (temperature?.hasError('max')) {
+                        <div i18n >Valor muito alto (máximo 60°C).</div>
+                    }
+                }
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label i18n for="altitude"> Altitude (m): </label>
+            <input id="altitude" type="number" formControlName="altitude"/>
+            <div class="error"> 
+                @if (altitude?.invalid && (altitude?.dirty || altitude?.touched)) {
+                    @if (altitude?.hasError('required')) {
+                        <div i18n >A altitude é obrigatória. </div>
+                    }
+                    @if (altitude?.hasError('min')) {
+                        <div i18n >A altitude mínima é de -430 metros.</div>
+                    }
+                    @if (altitude?.hasError('max')) {
+                        <div i18n >A altitude máxima é de 8500 metros.</div>
+                    }
+                }
+            </div>
+        </div>
+
+        <div class="form-check">
+            <label i18n for="isRaining"> Está a chover? </label>
+            <input i18n  id="isRaining" type="checkbox" formControlName="isRaining"/>
+            <small i18n > Selecionar para sim, não selecionar para não.</small>
+        </div>
+        
+        <div class="form-group">
+            <label i18n for="date"> Data: </label>
+            <input i18n id="date" type="date" formControlName="date"/>
+            @if (date?.invalid && date?.touched) {
+                <div i18n class="error">
+                    @if (date?.hasError('required')) {
+                        <div>A data é obrigatória.</div>
+                    }
+                </div>
+            }
+        </div>
+        
+        <div class="form-group">
+            <label i18n for="networkPower"> Network power (1-5): {{ weatherForm.get('networkPower')?.value }}</label>
+            <input i18n id="networkPower" type="range" min="1" max="5" formControlName="networkPower"/>
+        </div>
+
+        <button i18n type="submit" [disabled]="!weatherForm.valid" class="button-submit"> Submeter </button>
+    </form>
+</div>
